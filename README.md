@@ -65,7 +65,4 @@ florida_risk_project/
 *   **100-Year Event**: Estimated via **Log-Pearson Type III** extrapolation, providing a scientifically defensible estimate of extreme wind speeds and losses despite the limited historical record.
 *   **Adaptation**: The analysis compares the cost-effectiveness of "Green" (Mangroves) vs. "Grey" (Retrofitting) solutions, providing decision-support metrics for coastal resilience.
 
-## Troubleshooting
 
-*   **"No synthetic tracks generated"**: If the synthetic track generator fails, the notebook automatically falls back to the **Statistical Extrapolation** method (using LP3/EVT) to ensure you still get the critical 1-in-100 year impact numbers.
-*   **Exposure Loading**: The first run of `get_florida_exposure` may take a minute to download the NASA tile. Subsequent runs will load instantly from the local HDF5 cache.
