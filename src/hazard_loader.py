@@ -6,7 +6,7 @@ from pathlib import Path
 
 def get_florida_hazard(year_range=(2000, 2020), cache_dir="data"):
     """
-    Generates or loads Tropical Cyclone hazard for Florida.
+    loads Tropical Cyclone hazard for Florida.
     
     Parameters:
     - year_range: tuple of (start_year, end_year)

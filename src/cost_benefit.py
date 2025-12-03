@@ -10,7 +10,7 @@ def perform_cost_benefit(hazard, exposure, impf_set, measure_set):
     - climada.engine.CostBenefit object
     """
     # Define Discount Rates
-    # 2% discount rate over 50 years (extending range to cover 2016 start)
+    # 2% discount rate over 50 years 
     rates = DiscRates()
     # IMPORTANT: years must be a numpy array for CLIMADA's internal indexing to work correctly
     rates.years = np.arange(2016, 2073)

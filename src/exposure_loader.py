@@ -1,5 +1,4 @@
 from climada.entity import Exposures
-# Use direct function import to avoid module confusion
 from climada.entity.exposures.litpop.nightlight import load_nasa_nl_shape
 import climada.util.coordinates as u_coord
 from shapely.geometry import box
@@ -12,7 +11,7 @@ from pathlib import Path
 def get_florida_exposure(cache_dir="data"):
     """
     Generates exposure for Florida using ONLY Nightlight data (Black Marble).
-    Avoids Population data download issues (GPW).
+    Avoids Population data (GPW) because for some reason not being able to get GPW data in the system.
     
     Returns:
     - climada.entity.Exposures object
